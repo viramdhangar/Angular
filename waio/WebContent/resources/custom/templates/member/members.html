@@ -1,0 +1,38 @@
+<div class="ct-site--map ct-u-backgroundGradient">
+    <div class="container">
+        <div class="ct-u-displayTableVertical text-capitalize">
+            <div class="ct-u-displayTableCell">
+                <span class="ct-u-textBig">
+                    Professors
+                </span>
+            </div>
+            <div class="ct-u-displayTableCell text-right">
+                <span class="ct-u-textNormal ct-u-textItalic">
+                    <a href="./index">Home</a> / <a href="./members">Member</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+ <section class="ct-u-paddingBoth100 ct-u-doubleBorder ct-u-backgroundLightGreen">
+    <div class="container">
+        <div class="row" ng-controller="memberCtrl">
+        <div ng-repeat="profile in profileList" class="col-md-6 col-lg-3">
+	                <div class="ct-personBox ct-u-marginBottom30">
+	                    <div class="ct-personMedia">
+	                        <div class="ct-personImage">
+	                            <a href="member?profileId=${employee.id}">
+	                                <img ng-src="{{profile.imagePath}}"/>
+	                            </a>
+	                        </div>
+	                        <div class="ct-personName">
+	                            <h4 class="ct-personName--title ct-fw-600">
+	                            	{{profile.firstName}} {{profile.lastName}}
+	                            </h4>
+	                                <span class="ct-personName--meta ct-u-colorMotive">
+	                                    {{profile.profileType}}
+	                                </span>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>

@@ -1,0 +1,74 @@
+<section class="ct-u-backgroundLightGreen">
+    <div class="ct-u-paddingBoth100">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-8">
+							<h2 class="ct-fw-700 ct-u-marginBottom30">Welcome to Waio</h2>
+							<p class="ct-fw-600 ct-u-marginBottom100">Java is one of the
+								most powerful and secure programming languages available in the
+								market that was created more than 20 years back. From large
+								super computers to mobile phones, millions of applications run
+								on Java platform. There is a huge demand for Java and J2EE
+								developers to develop new applications as well as to maintain
+								the old applications developed in Java. Waio going to offers
+								wide range of JAVA training in Mandsaur to meet the growing
+								corporate needs. The course materials and syllabus are prepared
+								by trainers who have many years of experience in leading IT
+								companies. We providing Java Training in Mandsaur with Placement
+								in leading companies.</p>
+							<h4 class="ct-fw-700 ct-u-marginBottom30">Why Choose Waio
+								for your JAVA/J2EE Training:</h4>
+							<ul
+								class="list-unstyled ct-list-arrowBackground ct-fw-600 ct-u-marginBottom40">
+								<li>Practical training by working professionals from
+									leading IT companies</li>
+								<li>Learn by working on real - time Java projects</li>
+								<li>Flexible Timings - Weekday, Weekend</li>
+								<li>Online support for any doubt's and queries any time.</li>
+							</ul>
+						</div>
+                <div class="col-md-4">
+                    <h2 class="ct-fw-700 ct-u-marginBottom30">Please Contact us!!</h2>
+                    <form ng-submit="submitForm()" name="userForm" ng-controller="formCtrl">
+                        <div class="form-group  ct-u-marginBottom30">
+                                <div class="form-group ct-u-marginBottom30">
+                                	<!-- Your Name (required) -->
+                                    <input ng-model="profile.firstName" id="contact_name" placeholder="Name" type="text" name="firstName" ng-minlength="5" required class="form-control ct-input--type1 input-hg" title="Name">
+                                    <span ng-show="userForm.firstName.$error.required">Please enter something!</span>
+  									<span ng-show="!userForm.firstName.$error.required">Good boy!</span>
+                                    <label for="contact_name" class="sr-only"></label>
+                                </div>
+                             </div>
+                        <div class="form-group  ct-u-marginBottom30">
+                                <div class="form-group ct-u-marginBottom30">
+                                	<!-- Your Email (required) -->
+                                    <input ng-model="profile.email" id="contact_email" placeholder="Email" name="email" type="email" class="form-control ct-input--type1 input-hg h5-email" title="Email" required>
+                               		<span ng-show="userForm.email.$error.required">Please enter something!</span>
+  									<span ng-show="!userForm.email.$error.required">Good boy!</span>
+                                    <label for="contact_email" class="sr-only"></label>
+                                </div>
+                            </div>
+                        <div class="form-group  ct-u-marginBottom30">
+                        	<!-- Phone Number (required) -->
+                            <input ng-model="profile.phoneNumber" id="contact_phone" placeholder="Phone Number" name="phoneNumber" type="tel" class="form-control h5-phone ct-input--type1 input-hg" title="Phone" required>
+                            <span ng-show="userForm.phoneNumber.$error.required">Please enter something!</span>
+							<span ng-show="!userForm.phoneNumber.$error.required">Good boy!</span>
+                            <label for="contact_phone" class="sr-only"></label>
+                        </div>
+                        <div class="form-group  ct-u-marginBottom30">
+                        	<!-- Your Message (required) -->
+                            <textarea  ng-model="profile.yourMessage" id="contact_message" placeholder="Your Message" class="form-control ct-input--type1" rows="6" name="yourMessage" title="Message" required></textarea>
+                            <span ng-show="userForm.yourMessage.$error.required">Please enter something!</span>
+							<span ng-show="!userForm.yourMessage.$error.required">Good boy!</span>
+                            <label for="contact_message" class="sr-only"></label>
+                        </div>
+							<div id="ajaxGetUserServletResponse"
+								class="successMessage alert alert-success ct-u-marginTop20"
+								style="display: block;"></div>
+                        <input type="submit" class="btn btn-primary btn-sm ct-u-marginBottom30 pull-right" name="Submit" id="leaveReply" value="Submit">
+                    </form>
+                </div>
+					</div>
+        </div>
+    </div>
+</section>
