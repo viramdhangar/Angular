@@ -18,10 +18,12 @@ import com.waio.service.impl.ProfileServiceImpl;
 public class Test {
 
 	public static void main(String[] args) {
-// this is test commit to check
+
 		//again test commit
 		String host = "waiotech.com";
 		System.out.println(host);
+		
+		// email verified
 		/*		try {
 
 			boolean sessionDebug = true;
