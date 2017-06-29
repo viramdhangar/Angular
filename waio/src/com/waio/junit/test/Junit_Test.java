@@ -23,8 +23,6 @@ public class Junit_Test {
 	@Autowired
 	ProfileController pController;
 	
-	// git commit test
-	
 	//@Autowired
 	//MessageSourceAccessor messageAccessor;
 	
