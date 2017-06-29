@@ -23,7 +23,7 @@ public class Test {
 		String host = "waiotech.com";
 		System.out.println(host);
 		
-		// email verified
+		
 		/*		try {
 
 			boolean sessionDebug = true;
