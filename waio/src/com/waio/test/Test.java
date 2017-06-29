@@ -18,7 +18,7 @@ import com.waio.service.impl.ProfileServiceImpl;
 public class Test {
 
 	public static void main(String[] args) {
-// this is test commit to check
+
 		String host = "waiotech.com";
 		System.out.println(host);
 		/*		try {
