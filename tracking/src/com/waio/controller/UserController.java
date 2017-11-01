@@ -24,7 +24,7 @@ public class UserController {
 	}
 	@RequestMapping(value="/login" , method = RequestMethod.GET)
 	 public ModelAndView login(@RequestParam("emailId") String emailId , @RequestParam("password") String password) {
-			
+	// comments		
 		UserDto userUI = new UserDto();
 		userUI.setEmailId(emailId);
 		userUI.setPassword(password);
