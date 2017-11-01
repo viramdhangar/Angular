@@ -17,14 +17,14 @@ public class UserController {
 	
 	@Autowired
 	IUserService userService;
-	
+	//@request
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	public ModelAndView Registration() {
 		return new ModelAndView("login");
 	}
 	@RequestMapping(value="/login" , method = RequestMethod.GET)
 	 public ModelAndView login(@RequestParam("emailId") String emailId , @RequestParam("password") String password) {
-			
+	// comments		
 		UserDto userUI = new UserDto();
 		userUI.setEmailId(emailId);
 		userUI.setPassword(password);
