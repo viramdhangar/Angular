@@ -53,7 +53,7 @@ public class CoursesController {
 	}*/
 	@RequestMapping(value = "/courses", method = RequestMethod.GET, produces=MediaType.APPLICATION_JSON_VALUE)
 	public @ResponseBody List<CourseDTO> getCourseList() throws Exception {
-		
+		// add logic
 		ModelAndView model = new ModelAndView("courses");
 		System.out.println("in");
 		List<CourseDTO> courseList = new ArrayList<CourseDTO>();
