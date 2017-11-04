@@ -47,7 +47,7 @@ public class CoursesController {
 		}
 		
 		String courseJson = GenUtils.getJsonFromJava(courseList);
-		// line removed here
+		// line removed
 		return courseJson;
 		
 	}*/
