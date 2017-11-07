@@ -14,7 +14,7 @@ import com.waio.service.IUserService;
 
 @Controller
 public class UserController {
-	
+	//userController
 	@Autowired
 	IUserService userService;
 	//@request
