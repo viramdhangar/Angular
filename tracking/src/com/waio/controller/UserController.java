@@ -14,10 +14,10 @@ import com.waio.service.IUserService;
 
 @Controller
 public class UserController {
-	
+	//userController
 	@Autowired
 	IUserService userService;
-	
+	//@request
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	public ModelAndView Registration() {
 		return new ModelAndView("login");
