@@ -27,7 +27,7 @@ public class UserController {
 	// comments		
 		UserDto userUI = new UserDto();
 		userUI.setEmailId(emailId);
-		userUI.setPassword(password);
+		
 		
 		boolean isAuthenticaticated = userService.authentication(userUI);
 		
